@@ -7,4 +7,12 @@ contract addresstest {
      function changeIt() public view returns(uint160) {
         return uint160(account1);
      }
+
+     function changeIt2() public view returns(address) {
+      return address(1315192157708673347696721970112989957208375402279);
+     }
+
+     function check1() public view returns(bool) {
+      return account1>a;
+     }
 }
